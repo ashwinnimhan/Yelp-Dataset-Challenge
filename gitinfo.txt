@@ -1,0 +1,15 @@
+Git Info
+
+git status // status of files in git
+git log // log of actions
+git add . // Adding file to git
+git commit -m "Message" // commit to git
+git reset HEAD <filename> //unstage files
+git rm <filename> // delete file from git
+git remote // lookup remote repository
+
+First create a remote repository at GitHub. Copy url.
+In gitbash,
+
+git remote add <alias> <url>
+git push -u origin master
